@@ -84,7 +84,7 @@ def findpass():
     except KeyError:
         messagebox.showinfo(title=input_web.get(), message="Сайт не найден. ЧМО.")
     except FileNotFoundError:
-        messagebox.showinfo(title=input_web.get(), message="Ты дурак? Файла нет!")
+        messagebox.showinfo(title=input_web.get(), message="Файла нет!")
 
 
 
